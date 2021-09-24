@@ -1,0 +1,24 @@
+{
+  "name": "governance",
+  "version": "1.0.0",
+  "description": "A community-powered governance system for DTube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gen": "node generate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtube/governance.git"
+  },
+  "author": "Adrien M",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dtube/governance/issues"
+  },
+  "homepage": "https://github.com/dtube/governance#readme",
+  "dependencies": {
+    "javalon": "^1.0.34",
+    "secp256k1": "^4.0.2"
+  }
+}
